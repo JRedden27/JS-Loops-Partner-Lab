@@ -20,13 +20,21 @@
 
 // console.log(total);
 
-let list = "";
-let layer = "";
-for(let count = 1; count <= 6; count++){
-    layer += String(count);
-    list += layer + "\n";
+//let list = "";
+//let layer = "";
+//for(let count = 1; count <= 6; count++){
+  //  layer += String(count);
+    //list += layer + "\n";
+//}
+//console.log(list);
+
+
+let meters = 0;
+let yards = 0;
+console.log ("Meters", "Yards");
+
+for (meters = 10; meters<= 300; meters += 10){
+        yards = meters * 1.0936;
+        console.log(meters, yards);
 }
-console.log(list);
-
-
-
+    
