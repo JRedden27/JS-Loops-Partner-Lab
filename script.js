@@ -7,18 +7,26 @@
 // }
 
 
-let num = Number(prompt("Enter A Number"));
-let total = 0;
-let count= 1;
-while (count <= num){
-    total += count; 
-    count++;
+// let num = Number(prompt("Enter A Number"));
+// let total = 0;
+// let count= 1;
+// while (count <= num){
+//     total += count; 
+//     count++;
 
 
 
+// }
+
+// console.log(total);
+
+let list = "";
+let layer = "";
+for(let count = 1; count <= 6; count++){
+    layer += String(count);
+    list += layer + "\n";
 }
-
-console.log(total);
+console.log(list);
 
 
 
